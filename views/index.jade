@@ -1,0 +1,15 @@
+include header
+
+doctype html
+html(ng-app='new')
+  head
+    meta(charset='utf-8')
+    title Company
+    link(href='https://fonts.googleapis.com/css?family=Baloo+Bhai|Stylish', rel='stylesheet')
+    link(rel='stylesheet', href='style.css')
+    script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js')
+    script(src="/javascripts/newMain.js")
+  body(ng-controller='newController')
+    .center_grid
+      .row
+        h1.text Company Home Page

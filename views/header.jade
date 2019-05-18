@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title Company
+    link(href='https://fonts.googleapis.com/css?family=Baloo+Bhai|Stylish', rel='stylesheet')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    a(href="http://localhost:3000")
+      img#company_image(src='/images/company_image.svg', width='200px')
+    h1#company_name Company
+    .center
+      a(href="http://localhost:3000/api/new").menu_items News
+      a(href="http://localhost:3000/api/promotion").menu_items Promotions
+      a(href="http://localhost:3000/api/reference").menu_items References
+      a(href="http://localhost:3000/api/contact").menu_items Contact

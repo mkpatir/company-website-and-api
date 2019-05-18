@@ -1,0 +1,63 @@
+#company_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#company_name {
+  font-family: 'Baloo Bhai', cursive;
+  text-align: center
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  text-align: center
+}
+
+.menu_items{
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  font-family: 'Stylish', sans-serif;
+  font-size: 25px;
+  margin: 10px
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  width: 47.5%;
+  margin: auto;
+  text-align: center;
+}
+
+.row{
+  width: 100%;
+  background-color: aqua;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.center_grid{
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+}
+
+.center_contact{
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+  background-color: aqua;
+  text-align: center;
+  font-family: 'Baloo Bhai', cursive;
+}
+
+.text{
+  text-align: center;
+  font-family: 'Stylish', sans-serif;
+}

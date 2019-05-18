@@ -1,0 +1,17 @@
+include header
+
+doctype html
+html(ng-app='contact')
+  head
+    meta(charset='utf-8')
+    title Company
+    link(href='https://fonts.googleapis.com/css?family=Baloo+Bhai|Stylish', rel='stylesheet')
+    link(rel='stylesheet', href='style.css')
+    script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js')
+    script(src='/javascripts/contactMain.js')
+  body(ng-controller='contactController')
+    br
+    .center_contact
+      h1.text {{number}}
+      h2.text {{address}}
+      h2.text {{email}}
