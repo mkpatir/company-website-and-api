@@ -1,6 +1,6 @@
 angular.module('promotion', [])
 	.controller('promotionController', function ($scope, $http) {
-		$http.get("http://localhost:3000/api/promotion/getPromotions").then(function(res) {
+		$http.get("https://company-website-and-api.herokuapp.com/api/promotion/getPromotions").then(function(res) {
             	$scope.promotionsList = res.data.promotionsList;
 		});
 	});
